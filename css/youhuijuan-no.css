@@ -61,6 +61,9 @@ section .list.active{
     height: 6.15rem;
     width: 100%;
     padding: 0 0.3rem;
+    display: none;
+    position: absolute;
+    top:2.18rem;
 }
 .card ul{
     width: 100%;
@@ -85,6 +88,7 @@ section .list.active{
     display: flex;
     flex-direction: row;
     align-items: center;
+    color: rgba(255,255,255,0.5);
 }
 .card ul .li1 p .mif{
     width: 1.45rem;
@@ -100,6 +104,7 @@ section .list.active{
 }
 .card ul .li2 p span{
     font-size:0.6rem;
+    font-weight: bold;
 }
 .card ul .li2 .shiyong{
     width: 1.5rem;
@@ -111,4 +116,39 @@ section .list.active{
     font-size: 0.26rem;
     color:#30dd7b;
     margin-left: 0.15rem;
+}
+.card ul .li1 span {
+    color: #fff;
+    font-weight: 600;
+    margin-left: 0.2rem;
+}
+.card ul .li1 span a{
+    color: rgba(255,255,255,0.5);
+}
+.card .ul2,.ul3{
+    margin-top:0.3rem;
+}
+.card .ul2{
+    background: linear-gradient(to right,#34a3f8,#3fdef1);  
+}
+.card .ul3{
+    background: linear-gradient(to right,#ffb637,#ffde47);   
+}
+.card .ul2 .li2 .shiyong{
+    color: #3bacfe;
+}
+.card .ul3 .li2 .shiyong{
+    color: #ffb637;
+}
+.no-none{
+    display: block;
+}
+.card.card-2 ul{
+    background: #d7e0e3;
+}
+.card.card-2 ul .li2 .shiyong{
+    color:  #d7e0e3;
+}
+.card.card-2 .ul2{
+    margin-top:0.3rem;
 }
