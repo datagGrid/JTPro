@@ -12,6 +12,10 @@ html, body {
     font-family: "微软雅黑","苹方","宋体";
 }
 
+i{
+    font-style: normal;
+}
+
 body {
     font-family: "Microsoft YaHei";
     font-size:14px;
@@ -28,7 +32,6 @@ img {
 
 a {
     text-decoration: none;
-    color: #232323;
 }
 
 table {
