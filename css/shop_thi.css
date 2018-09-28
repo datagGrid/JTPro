@@ -194,6 +194,9 @@ i{
     font-size: 0.2rem;
     box-shadow: 0 0 0.8rem 0.01rem rgba(55,223,116,0.13);
 }
+.last .jia a{
+    color: white;
+}
 .last .dan{
     width: 1.96rem;
     height: 0.6rem;
