@@ -113,6 +113,8 @@ header .topright{
 .price_info span{
 	display: inline-block;
 	width: 0.1rem;
+	border-radius: 0.08rem;
+	box-shadow: 0 0.01rem 0.02rem 0.02rem #caeaff;
 	margin-bottom: 0.08rem;
 	height: 0.08rem;
 	background: #007AFF;
@@ -124,7 +126,7 @@ header .topright{
 }
 .sub a{
 	box-shadow: 0.02rem 0.02rem 0.1rem 0.06rem #d5f8e4;
-	margin: 0 auto;
+	margin: 0 auto ;
 	width: 4rem;
 	height: 0.6rem;
 	background: linear-grain

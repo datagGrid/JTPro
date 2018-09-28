@@ -179,6 +179,8 @@ header .topright{
 }
 
 
+
+
 footer{
 	position: fixed;
 	bottom: 0;
@@ -200,6 +202,16 @@ footer ul li{
 	justify-content: center;
 	flex-direction: column;
 }
+footer ul li a{
+	opacity: 0.5;
+}
+footer ul li a img{
+	width: 0.5rem;
+	height: 0.5rem;
+}
+.active{
+	opacity: 1;
+}
 
 footer ul li i{
 	margin-left: 0.06rem;
@@ -209,6 +221,6 @@ footer ul li i{
 	height: 0.44rem;
 }
 footer ul li h2{
-	color: #b3e1ff;
+	color: #36a8fe;
 	font-size: 0.24rem;
 }
